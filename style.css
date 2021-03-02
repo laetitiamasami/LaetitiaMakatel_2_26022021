@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700;800&display=swap');
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navigator{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+main, .navigator, footer{   
+    max-width: 1820px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 2rem;
+    padding-top: 0%;
+}
+.nav-list{
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+.color-navi{
+    color:#0065fc;
+    font-weight: bold;
+}
+.bar-nav{
+    padding-top: 2.6rem;
+}
+.bar-nav{
+    display: block;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+.search-box{
+    border-top: solid 1px #ebe9e9;
+    border-bottom: solid 1px #ebe9e9 ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    padding-left: 35px;
+}
+input[type=search]{
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.change-icon{
+    font-size: 20px;
+    color: black;
+    
+}
+.search-input{
+    display: flex;
+}
+.search-button{
+    border:none;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #0065fc;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 17px;
+}
+.header-search h1{
+    margin-bottom: 0%;
+}
+.marker-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #f3f2f2;
+}
+.container-filter-all{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.container-filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f3f2f2;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+.filter-info{
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+}
+.filter-h2{
+    padding-right: 30px;
+}
+.info-disponibility p{
+    margin-top: 0%;
+}
+.container-filter-icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    background: #deebff;
+}
