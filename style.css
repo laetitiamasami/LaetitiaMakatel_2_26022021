@@ -14,7 +14,7 @@ a{
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
-main, .navigator, footer{   
+main, .navigator{   
     max-width: 1400px;
     margin: auto;
     box-sizing: border-box;
@@ -203,6 +203,12 @@ input[type=search]{
     font-weight: 800;
     font-size: 25px;
 }
+.popular-icon{
+    display:flex;
+    align-items: center;
+    justify-content:right;
+    padding-left: 100px;
+}
 .most-popular{
     background-color: #f2f2f2;
     border-radius: 25px;
@@ -258,31 +264,74 @@ input[type=search]{
     color: #f2f2f2;
 }
 .activities-card_container{
-  display: grid;
-  grid-template-columns: repeat(4, 20%);
-  grid-template-rows: repeat(2, 200%);
-  gap: 50px 50px;
-  grid-template-areas:
-    "activities-card_container-1 activities-card_container-2 activities-card_container-4 activities-card_container-5"
-    "activities-card_container-1 activities-card_container-3 activities-card_container-4 activities-card_container-6";
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 250px 250px;
+    gap: 50px 50px;
+    grid-template-areas:
+      "activities-card_container-1 activities-card_container-2 activities-card_container-4 activities-card_container-5"
+      "activities-card_container-1 activities-card_container-3 activities-card_container-4 activities-card_container-6";
+  }
+  
+  .activities-card_container-1 { grid-area: activities-card_container-1; }
+  
+  .activities-card_container-2 { grid-area: activities-card_container-2; }
+  
+  .activities-card_container-3 { grid-area: activities-card_container-3; }
+  
+  .activities-card_container-4 { grid-area: activities-card_container-4; }
+  
+  .activities-card_container-5 { grid-area: activities-card_container-5; }
+  
+  .activities-card_container-6 { grid-area: activities-card_container-6; }
+  
+.activities-container{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
 }
-.activities-card_container-1 { grid-area: activities-card_container-1; }
-.activities-card_container-2 { grid-area: activities-card_container-2; }
-.activities-card_container-3 { grid-area: activities-card_container-3; }
-.activities-card_container-4 { grid-area: activities-card_container-4; }
-.activities-card_container-5 { grid-area: activities-card_container-5; }
-.activities-card_container-6 { grid-area: activities-card_container-6; }
-
 .activities-card{
-    border-radius: 25px;
-    box-sizing: border-box;
-    box-shadow: 0 0 16px #0000002e;
+    position: relative;
+    flex: 1;
 }
 .img-activities-card{
+    position: absolute;
     height: 100%;
     width: 100%;
-    border-radius: 25px;
     object-fit: cover;
 }
-
-
+.activities-card-h3{
+    margin: 1.2rem 1.5rem;
+}
+footer{
+    display: flex;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.footer-container{
+    display: flex;
+    max-width: 100%;
+    width: 1400px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+.footer-about{
+    margin-right: 150px;
+}
+.footer-hosting{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.footer-assistance{
+    margin-left: 150px;
+}
+.footer-container h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
