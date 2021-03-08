@@ -190,7 +190,9 @@ input[type=search]{
     box-shadow: 0 0 16px #0000002e;
 }
 .hosting_showmore{
+    display: flex;
     font-weight: bold;
+    font-size: 18px
 }
 .most-popular-card_container{
     display: grid;
@@ -255,3 +257,32 @@ input[type=search]{
     font-size: 15px;
     color: #f2f2f2;
 }
+.activities-card_container{
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-template-rows: repeat(2, 200%);
+  gap: 50px 50px;
+  grid-template-areas:
+    "activities-card_container-1 activities-card_container-2 activities-card_container-4 activities-card_container-5"
+    "activities-card_container-1 activities-card_container-3 activities-card_container-4 activities-card_container-6";
+}
+.activities-card_container-1 { grid-area: activities-card_container-1; }
+.activities-card_container-2 { grid-area: activities-card_container-2; }
+.activities-card_container-3 { grid-area: activities-card_container-3; }
+.activities-card_container-4 { grid-area: activities-card_container-4; }
+.activities-card_container-5 { grid-area: activities-card_container-5; }
+.activities-card_container-6 { grid-area: activities-card_container-6; }
+
+.activities-card{
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 0 16px #0000002e;
+}
+.img-activities-card{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+
