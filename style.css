@@ -362,4 +362,27 @@ footer{
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 650px){
+    .navigator{
+        align-items: initial;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .logo{
+        align-items: left;
+    }
+  .hosting-card_container{
+        grid-template-columns: repeat(1, 1fr);
+   }
+   .hosting-container{
+       grid-template-columns: 1fr;
+   }
+   #hosting{
+       background-color: white; 
+   }
+   .most-popular{
+       border-radius: 0px;
+   }
+   
+}
    
