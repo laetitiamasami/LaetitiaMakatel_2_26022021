@@ -390,7 +390,6 @@ footer{
         justify-content:center;
         padding-bottom: 15px;
         border-bottom: solid 3px #d8d8d8
-        
     }
     .bar1{
         margin: 0px;
@@ -443,6 +442,18 @@ footer{
     .search-button {
         display: none;
     }
+    .container-filter-all{  
+        flex-direction: column;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    .container-filter{
+        margin-left: 0px;
+    }
+    .info-disponibility{
+        padding-left: 20px;
+    }
     .hosting-card_container{
         grid-template-columns: repeat(1, 1fr);
    }
@@ -456,6 +467,9 @@ footer{
        border-radius: 0px;
        background-color: #f2f2f2;
        
+   }
+   .activities-header{
+       padding-left: 20px;
    }
    .activities-card_container{
     display: grid;
