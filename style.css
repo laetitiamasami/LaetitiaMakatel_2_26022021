@@ -364,6 +364,43 @@ footer{
     margin-top: 50px;
     margin-bottom: 30px;
 }
+@media screen and (max-width: 1400px){
+    
+    .hosting-container{
+        grid-template-columns: 1fr;
+    }
+    .most-popular{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 10rem;
+        row-gap: 2rem;
+        column-gap: 2rem;
+        grid-row: 1;
+    }
+    .most-popular-card_container{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 40px;
+    }
+    .most-popular{
+        margin-bottom: 40px;
+    }
+    .popular-icon{
+        padding-left: 970px;
+    }
+    .activities-card_container{
+        gap: 40px 40px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        grid-template-areas:
+        "activities-card_container-1 activities-card_container-3 activities-card_container-5"
+        "activities-card_container-2 activities-card_container-4 activities-card_container-6";
+    }
+    .activities-card_container-1 { grid-area: activities-card_container-1; }
+    .activities-card_container-2 { grid-area: activities-card_container-2; }
+    .activities-card_container-3 { grid-area: activities-card_container-3; }
+    .activities-card_container-4 { grid-area: activities-card_container-4; }
+    .activities-card_container-5 { grid-area: activities-card_container-5; }
+    .activities-card_container-6 { grid-area: activities-card_container-6; }
+}
 
 @media screen and (max-width: 650px){
     main{
@@ -412,9 +449,6 @@ footer{
         border-bottom: solid 3px #0065fc;
         color: #0065fc;
     }
-    .color-navi:hover{
-        opacity: none;
-    }
     .header-search{
         padding: 20px 20px 0px 20px;
     }
@@ -422,7 +456,7 @@ footer{
         padding-left: 20px;
     }
     .search-box{
-        padding-right: 0px;
+        overflow: hidden;
     }
     .search-button_mobile{
         display: flex;
@@ -456,17 +490,26 @@ footer{
     }
     .hosting-card_container{
         grid-template-columns: repeat(1, 1fr);
-   }
-   .hosting-container{
-       grid-template-columns: 1fr;
-   }
+    }
    #hosting{
        background-color: white; 
+       padding-left: 20px;
+       padding-right: 20px;
+       grid-row: 2;
    }
    .most-popular{
+       padding-right: 20px;
+       padding-left: 20px;
        border-radius: 0px;
        background-color: #f2f2f2;
-       
+   }
+   .most-popular-card_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   }
+   .popular-icon{
+       padding-left: 330px;
    }
    .activities-header{
        padding-left: 20px;
@@ -474,7 +517,7 @@ footer{
    .activities-card_container{
     display: grid;
     justify-content: center;
-    grid-template-columns: 450px;
+    grid-template-columns: 1fr;
     grid-template-rows: 300px 300px 300px 300px 300px 300px;
     gap: 40px 0px;
     grid-template-areas:
@@ -484,6 +527,7 @@ footer{
     "activities-card_container-4"
     "activities-card_container-5"
     "activities-card_container-6";
+    
 }
 .activities-card_container-1 { grid-area: activities-card_container-1; }
 .activities-card_container-2 { grid-area: activities-card_container-2; }
