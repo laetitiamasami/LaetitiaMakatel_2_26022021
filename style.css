@@ -106,6 +106,7 @@ input[type=search]{
 }
 .container-filter-all{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding-top: 20px;
 }
@@ -228,7 +229,6 @@ input[type=search]{
     display:flex;
     align-items: center;
     justify-content:right;
-    padding-left: 100px;
 }
 .most-popular{
     background-color: #f2f2f2;
@@ -254,6 +254,7 @@ input[type=search]{
 }
 .most-popular-icon{
     display: flex;
+    align-items: flex-end;
 }
 .most-popular_card:hover{
     transform: scale(1.05);
@@ -379,15 +380,12 @@ footer{
         column-gap: 2rem;
         grid-row: 1;
     }
-    .most-popular-card_container{
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 40px;
-    }
     .most-popular{
         margin-bottom: 40px;
     }
-    .popular-icon{
-        padding-left: 970px;
+    .most-popular-card_container{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 40px;
     }
     .activities-card_container{
         gap: 40px 40px;
@@ -408,12 +406,12 @@ footer{
     .most-popular-card_container{
        grid-template-columns: 3fr;
     }
-    .popular-icon{
-        padding-left: 640px;
-    }
     .hosting-card_container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+    }
+    .most-popular{
+        margin-bottom: 40px;
     }
     .footer-about{
         margin-right: 90px;
@@ -423,21 +421,15 @@ footer{
         margin-left: 90px;
     }
 }
-@media screen and (max-width: 820px){
-    .container-filter-all{  
-        flex-direction: column;
-        flex-direction: column;
-        align-items: flex-start;
-        padding-left: 20px;
-}
+@media screen and (max-width: 822px){
     .container-filter{
         margin-left: 0px;
     }
     .container-filter-all{
         padding-left: 0px;
     }
-    .popular-icon{
-        padding-left: 390px;
+    .most-popular{
+        margin-bottom: 40px;
     }
     .footer-about{
         margin-right: 50px;
@@ -555,9 +547,6 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-   }
-   .popular-icon{
-       padding-left: 330px;
    }
    .activities-header{
        padding-left: 20px;
