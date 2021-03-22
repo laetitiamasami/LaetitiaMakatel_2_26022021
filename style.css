@@ -421,6 +421,12 @@ footer{
         margin-right: 90px;
         margin-left: 90px;
     }
+    .icon-star-blue {
+        font-size: 10px;
+    }
+    .icon-star-grey {
+        font-size: 10px;
+    }
 }
 @media(max-width: 822px){
     .container-filter{
@@ -603,18 +609,38 @@ footer{
     align-items: center;
 }
 }
-@media (max-width: 320px){
-    
-    .navigator{
-        align-items: initial;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        padding: 0px;
+@media screen and (max-width: 320px){
+
+    .color-navi{
+        padding-top: 50px;
+        padding-right: 10px;
+    }
+    .color-navi:hover{
+        padding-top: 50px;
     }
     .logo{
-        align-items: left;
-        padding-left: 20px;
-
+        padding-left: 10px;
+    }
+    .color-navi{
+        padding-right: 10px;
+    }
+    .bar1{
+        padding-right: 50px;
+        padding-left: 0px;
+    }
+    .bar2{
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+    .search-input{
+        padding-right: 20px;
+    }
+    .most-popular-card_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .popular-icon{
+        padding-left: 17px;
     }
 }
     
