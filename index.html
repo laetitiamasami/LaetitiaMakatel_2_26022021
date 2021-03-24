@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" media="screen and (max-width: 1400px)" href="petite_resolution.css" />
     <title>Reservia</title>
     <script src="https://kit.fontawesome.com/73a440b80f.js" crossorigin="anonymous"></script>
 </head>
@@ -16,9 +16,9 @@
             <img class="logo" src="images/logo/Reservia.svg" alt="logo reservia">
         </div>
         <nav class="bar-nav">
-            <a class="nav-list" href="#hosting">Hébergements</a>
-            <a class="nav-list" href="#activities">Activités</a>
-            <a class="nav-list color-navi register" href="#">S'inscrire</a>
+            <a class="nav-list bar1" href="#hosting">Hébergements</a>
+            <a class="nav-list bar2" href="#activities">Activités</a>
+            <a class="nav-list color-navi" href="#">S'inscrire</a>
         </nav>
     </header>
     <main>
@@ -33,7 +33,8 @@
                     <i class="fas fa-map-marker-alt change-icon"></i>
                 </div>
                 <input class="search-box" type="search" placeholder="Marseille, France">
-                <button class="search-button">Rechercher</button>
+                <button class="search-button">Rechercher </button>
+                <button class="search-button_mobile"><i class="fas fa-search"></i></button>
             </div>
             <div class="container-filter-all">
                 <div class="filter-h2-box">
@@ -72,7 +73,7 @@
             </div>
         </section>
         <!--hosting-aside-->
-        <div class="hosting-container">
+        <div class="hosting-container">   
             <section id="hosting">
                 <h2>Hébergements à Marseille</h2>
                 <div class="hosting-card_container">
@@ -337,7 +338,7 @@
                         </a>
                     </article>
                 </div>
-            </aside>
+            </aside>            
         </div>
         <!--activities-->
         <section class="activities" id="activities">
