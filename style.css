@@ -452,21 +452,24 @@ footer{
     .nav-list{
         margin-right: 0px
     }
-    .mobile-ver{
+    .bar-nav{
         display: flex;
-        flex-direction: row;
         justify-content:center;
-        border-bottom: solid 3px #d8d8d8
+        
     }
     .bar1{
-        padding-right: 210px;
-        padding-left: 210px;
+        border-bottom: solid 3px #d8d8d8;
+        padding-right: 212px;
+        padding-left: 212px;
         padding-bottom: 15px;
+       
     }
     .bar2{
-        padding-left: 210px;
-        padding-right: 210px;
+        border-bottom: solid 3px #d8d8d8;
+        padding-left: 212px;
+        padding-right: 212px;
         padding-bottom: 15px;
+        
     }
     .bar1:hover{
         padding-top: 0px;
@@ -509,18 +512,19 @@ footer{
     .nav-list{
         margin-right: 0px;
     }
-    .mobile-ver{
+    .bar-nav{
         display: flex;
-        flex-direction: row;
         justify-content:center;
-        border-bottom: solid 3px #d8d8d8;
+        
     }
     .bar1{
+        border-bottom: solid 3px #d8d8d8;
         padding-right: 150px;
         padding-left: 150px;
         padding-bottom: 15px;
     }
     .bar2{
+        border-bottom: solid 3px #d8d8d8;
         padding-left: 150px;
         padding-right: 150px;
         padding-bottom: 15px;
@@ -561,13 +565,13 @@ footer{
             padding-left: 350px;
         }
         .bar1{
-            padding-right: 145px;
-            padding-left: 145px;
+            padding-right: 149px;
+            padding-left: 149px;
             padding-bottom: 15px;
         }
         .bar2{
-            padding-left: 145px;
-            padding-right: 145px;
+            padding-left: 149px;
+            padding-right: 149px;
             padding-bottom: 15px;
         }
         .footer-container{
@@ -600,20 +604,20 @@ footer{
     .nav-list{
         margin-right: 0px;
     }
-    .mobile-ver{
+    .bar-nav{
         display: flex;
-        flex-direction: row;
         justify-content:center;
-        border-bottom: solid 3px #d8d8d8;
+        
     }
     .bar1{
-
+        border-bottom: solid 3px #d8d8d8;
         padding-right: 70px;
         padding-bottom: 15px;
         padding-left: 20px;
         
     }
     .bar2{
+        border-bottom: solid 3px #d8d8d8;
         padding-left: 70px;
         padding-bottom: 15px;
         padding-right: 20px;
@@ -748,12 +752,12 @@ footer{
         padding-left: 110px;
     }
     .bar1{
-        padding-right: 60px;
-        padding-left: 60px;
+        padding-right: 61px;
+        padding-left: 61px;
     }
     .bar2{
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 61px;
+        padding-right: 61px;
     }
 }
 @media screen and (max-width: 375px){
@@ -772,12 +776,12 @@ footer{
         padding-right: 20px;
     }
     .bar1{
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 51px;
+        padding-left: 51px;
     }
     .bar2{
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 51px;
+        padding-right: 51px;
     }
     .search-input{
         padding-right: 20px;
