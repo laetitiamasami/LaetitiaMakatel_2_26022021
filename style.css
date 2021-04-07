@@ -447,17 +447,16 @@ footer{
         margin-right: 0px;
     }
     .nav-list:hover{
-        border-top: solid 2px #0065fc;
-        padding-top: 2rem;
-        color: #0065fc;
+        border-top: 0px;
     }
     .nav-list{
-        margin-right: 0px;
+        margin-right: 0px
     }
-    .bar-nav{
+    .mobile-ver{
         display: flex;
+        flex-direction: row;
         justify-content:center;
-        border-bottom: solid 2px #d8d8d8
+        border-bottom: solid 3px #d8d8d8
     }
     .bar1{
         padding-right: 210px;
@@ -470,17 +469,16 @@ footer{
         padding-bottom: 15px;
     }
     .bar1:hover{
-        
         padding-top: 0px;
         border-top: hidden;
-        border-bottom: solid 2px #0065fc;
+        border-bottom: solid 3px #0065fc;
         color: #0065fc;
     }
     .bar2:hover{
         
         padding-top: 0px;
         border-top: hidden;
-        border-bottom: solid 2px #0065fc;
+        border-bottom: solid 3px #0065fc;
         color: #0065fc;
     }
     .popular-icon{
@@ -506,17 +504,16 @@ footer{
         margin-right: 0px;
     }
     .nav-list:hover{
-        border-top: solid 2px #0065fc;
-        padding-top: 2rem;
-        color: #0065fc;
+        border-top: 0px,
     }
     .nav-list{
         margin-right: 0px;
     }
-    .bar-nav{
+    .mobile-ver{
         display: flex;
+        flex-direction: row;
         justify-content:center;
-        border-bottom: solid 2px #d8d8d8
+        border-bottom: solid 3px #d8d8d8;
     }
     .bar1{
         padding-right: 150px;
@@ -529,17 +526,15 @@ footer{
         padding-bottom: 15px;
     }
     .bar1:hover{
-        
         padding-top: 0px;
         border-top: hidden;
-        border-bottom: solid 2px #0065fc;
+        border-bottom: solid 3px #0065fc;
         color: #0065fc;
     }
     .bar2:hover{
-        
         padding-top: 0px;
         border-top: hidden;
-        border-bottom: solid 2px #0065fc;
+        border-bottom: solid 3px #0065fc;
         color: #0065fc;
     }
     .container-filter{
@@ -600,22 +595,23 @@ footer{
         padding-top: 2rem;
     }
     .nav-list:hover{
-        border-top: solid 2px #0065fc;
-        padding-top: 2rem;
-        color: #0065fc;
+        border-top: 0px,
     }
     .nav-list{
         margin-right: 0px;
     }
-    .bar-nav{
+    .mobile-ver{
         display: flex;
+        flex-direction: row;
         justify-content:center;
-        border-bottom: solid 2px #d8d8d8
+        border-bottom: solid 3px #d8d8d8;
     }
     .bar1{
+
         padding-right: 70px;
         padding-bottom: 15px;
         padding-left: 20px;
+        
     }
     .bar2{
         padding-left: 70px;
@@ -629,15 +625,17 @@ footer{
     .bar1:hover{
         
         padding-top: 0px;
+        padding-bottom: 0px;
         border-top: hidden;
-        border-bottom: solid 2px #0065fc;
+        border-bottom: solid 3px #0065fc;
         color: #0065fc;
     }
     .bar2:hover{
         
         padding-top: 0px;
+        padding-bottom: 0px;
         border-top: hidden;
-        border-bottom: solid 2px #0065fc;
+        border-bottom: solid 3px #0065fc;
         color: #0065fc;
     }
     .header-search{
