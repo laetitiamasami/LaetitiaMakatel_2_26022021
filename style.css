@@ -560,6 +560,21 @@ footer{
     .footer-assistance{
         margin-left: 50px;
     }
+    @media (max-width: 812px){
+        .bar1{
+            border-bottom: solid 3px #d8d8d8;
+            padding-right: 160px;
+            padding-left: 160px;
+            padding-bottom: 15px;
+            
+        }
+        .bar2{
+            border-bottom: solid 3px #d8d8d8;
+            padding-left: 160px;
+            padding-right: 160px;
+            padding-bottom: 15px;
+    }
+    }
     @media (max-width: 768px) {
         .popular-icon{
             padding-left: 350px;
@@ -579,6 +594,36 @@ footer{
         }
         
     }
+    @media  (max-width: 736px){
+        .bar1{
+            border-bottom: solid 3px #d8d8d8;
+            padding-right: 140px;
+            padding-left: 140px;
+            padding-bottom: 15px;
+            
+        }
+        .bar2{
+            border-bottom: solid 3px #d8d8d8;
+            padding-left: 140px;
+            padding-right: 140px;
+            padding-bottom: 15px;
+    }
+    }
+    @media  (max-width: 667px){
+        .bar1{
+            border-bottom: solid 3px #d8d8d8;
+            padding-right: 124px;
+            padding-left: 124px;
+            padding-bottom: 15px;
+            
+        }
+        .bar2{
+            border-bottom: solid 3px #d8d8d8;
+            padding-left: 124px;
+            padding-right: 124px;
+            padding-bottom: 15px;
+    }
+}
 @media (max-width: 650px){
     main{
         padding: 0px;
